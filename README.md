@@ -8,7 +8,7 @@ Smart Orchard robot for the 2023 RAICOM CAIR Engineering Competition track. A Je
 
 The robot leaves the start box and follows the marked course through curves and intersections toward the orchard stations. The full run plays at 1.25× speed.
 
-https://github.com/user-attachments/assets/ab553ddb-f832-4ac1-abce-f2c1659c0afd
+https://github.com/user-attachments/assets/5910ec4e-8e71-47ce-a822-6c16f54c847f
 
 ### Fruit Picking and Transfer
 
