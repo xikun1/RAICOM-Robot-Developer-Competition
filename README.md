@@ -1,6 +1,6 @@
 # RAICOM Robot Developer Competition
 
-This Smart Orchard robot competed in the CAIR Engineering Competition track of the **2023 RAICOM Robot Developer Competition**. The team earned **Second Prize at the national finals**.
+This robot competed in the **Smart Orchard** event at the **2023 RAICOM Robot Developer Competition**, where the team earned **Second Prize at the national finals**.
 
 A Jetson Nano coordinates route selection, YOLOv5 object detection, a calibrated picking arm and compartment-based fruit storage. A separate chassis controller handles line following and receives route commands over serial. [RAICOM CAIR rules](https://raicom.com.cn/content.html?cid=715)
 
