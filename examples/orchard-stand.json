@@ -1,0 +1,33 @@
+{
+  "image": "images/orchard-stand.jpg",
+  "image_size": [640, 480],
+  "detections": [
+    {
+      "label": 5,
+      "bbox": [
+        284,
+        48,
+        336,
+        100
+      ]
+    },
+    {
+      "label": 5,
+      "bbox": [
+        107,
+        327,
+        152,
+        373
+      ]
+    },
+    {
+      "label": 5,
+      "bbox": [
+        452,
+        340,
+        486,
+        376
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "image": "images/strawberry-target.jpg",
+  "image_size": [640, 480],
+  "detections": [
+    {
+      "label": 6,
+      "bbox": [
+        477,
+        337,
+        520,
+        381
+      ]
+    },
+    {
+      "label": 6,
+      "bbox": [
+        396,
+        53,
+        450,
+        105
+      ]
+    },
+    {
+      "label": 6,
+      "bbox": [
+        182,
+        381,
+        229,
+        432
+      ]
+    }
+  ]
+}

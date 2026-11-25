@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.env
+.env.*
+*.engine
+*.onnx
+*.pt
+*.wts
+*.so
+data/
+outputs/
