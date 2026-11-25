@@ -8,13 +8,17 @@ Smart Orchard robot for the 2023 RAICOM CAIR Engineering Competition track. A Je
 
 The robot leaves the start box and follows the marked course through curves and intersections toward the orchard stations. The full run plays at 1.25× speed.
 
-https://github.com/user-attachments/assets/5910ec4e-8e71-47ce-a822-6c16f54c847f
+[![Watch the line-following run](docs/media/line-following.webp)](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#line-following)
+
+[Watch the full line-following video](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#line-following)
 
 ### Fruit Picking and Transfer
 
 A close-up shows the arm approaching the fruit props, closing the gripper, lifting the target and transferring it to the onboard storage area. The full clip plays at its original speed.
 
-https://github.com/user-attachments/assets/8018cb5a-d457-4a91-8d4e-372a1c59cfb8
+[![Watch the fruit-picking run](docs/media/fruit-picking.webp)](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#fruit-picking)
+
+[Watch the full fruit-picking video](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#fruit-picking)
 
 ## Reproduce on a Desktop
 

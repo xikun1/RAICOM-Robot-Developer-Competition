@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robot Demonstrations | RAICOM Robot Developer Competition</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #152b3a;
+      background: #f4f7f6;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(1160px, 100% - 2rem); margin: auto; padding: 3rem 0; }
+    header {
+      border-bottom: 1px solid #baccc7;
+      padding-bottom: 1.75rem;
+      margin-bottom: 2rem;
+    }
+    h1 { font-size: clamp(1.9rem, 4vw, 3.25rem); letter-spacing: -.035em; margin: 0 0 .5rem; }
+    h2 { font-size: clamp(1.15rem, 2vw, 1.45rem); margin: 0 0 .6rem; }
+    p { line-height: 1.6; margin: 0 0 .95rem; color: #405764; }
+    a { color: #086754; font-weight: 650; text-underline-offset: .2em; }
+    a:focus-visible, video:focus-visible { outline: 2px solid #087861; outline-offset: 3px; }
+    .demos { display: grid; grid-template-columns: 1.5fr 1fr; align-items: start; gap: 1rem; }
+    section { background: #fff; border: 1px solid #d1ddda; border-radius: .75rem; padding: 1rem; }
+    video { width: 100%; display: block; border-radius: .4rem; background: #14242b; aspect-ratio: 16/9; }
+    #fruit-picking video { width: min(100%, 340px); margin-inline: auto; aspect-ratio: 9/16; }
+    .download { display: inline-block; margin-top: .9rem; }
+    @media (max-width: 720px) {
+      main { padding-top: 1.6rem; }
+      .demos { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>RAICOM Robot Developer Competition</h1>
+      <p>Smart Orchard robot demonstrations from the 2023 CAIR Engineering Competition track.</p>
+      <a href="https://github.com/xikun1/RAICOM-Robot-Developer-Competition">View project and source code on GitHub</a>
+    </header>
+    <div class="demos">
+      <section id="line-following" aria-labelledby="line-title">
+        <h2 id="line-title">Line Following and Route Navigation</h2>
+        <p>The robot leaves its start box and follows the marked course through bends and intersections toward the orchard stations. The full clip plays at 1.25× speed.</p>
+        <video controls playsinline preload="none" poster="media/line-following.webp" aria-label="Line following and route navigation">
+          <source src="media/line-following.mp4" type="video/mp4">
+        </video>
+        <a class="download" href="media/line-following.mp4" download>Download line-following MP4</a>
+      </section>
+      <section id="fruit-picking" aria-labelledby="picking-title">
+        <h2 id="picking-title">Fruit Picking and Transfer</h2>
+        <p>The arm aligns with the fruit props, closes the gripper, lifts the target and carries it toward the onboard storage area. The full clip plays at its original speed.</p>
+        <video controls playsinline preload="none" poster="media/fruit-picking.webp" aria-label="Fruit picking and transfer">
+          <source src="media/fruit-picking.mp4" type="video/mp4">
+        </video>
+        <a class="download" href="media/fruit-picking.mp4" download>Download fruit-picking MP4</a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
