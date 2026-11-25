@@ -1,24 +1,28 @@
 # RAICOM Robot Developer Competition
 
-Smart Orchard robot for the 2023 RAICOM CAIR Engineering Competition track. A Jetson Nano coordinates route selection, YOLOv5 object detection, a calibrated picking arm and compartment-based fruit storage. A separate chassis controller handles line following and receives route commands over serial. [RAICOM CAIR rules](https://raicom.com.cn/content.html?cid=715)
+This Smart Orchard robot competed in the CAIR Engineering Competition track of the **2023 RAICOM Robot Developer Competition**. The team earned **Second Prize at the national finals**.
+
+A Jetson Nano coordinates route selection, YOLOv5 object detection, a calibrated picking arm and compartment-based fruit storage. A separate chassis controller handles line following and receives route commands over serial. [RAICOM CAIR rules](https://raicom.com.cn/content.html?cid=715)
 
 ## Robot Demonstrations / 实机展示
 
 ### Line Following and Route Navigation
 
-The robot leaves the start box and follows the marked course through curves and intersections toward the orchard stations. The full run plays at 1.25× speed.
+The robot leaves the start box and follows the marked course through curves and intersections toward the orchard stations.
 
-[![Watch the line-following run](docs/media/line-following.webp)](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#line-following)
-
-[Watch the full line-following video](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#line-following)
+<picture>
+  <source type="image/webp" srcset="docs/media/line-following-animation.webp">
+  <img src="docs/media/line-following.gif" alt="The robot following the marked course from the start box toward the orchard stations">
+</picture>
 
 ### Fruit Picking and Transfer
 
-A close-up shows the arm approaching the fruit props, closing the gripper, lifting the target and transferring it to the onboard storage area. The full clip plays at its original speed.
+A close-up shows the arm approaching the fruit props, closing the gripper, lifting the target and transferring it to the onboard storage area.
 
-[![Watch the fruit-picking run](docs/media/fruit-picking.webp)](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#fruit-picking)
-
-[Watch the full fruit-picking video](https://xikun1.github.io/RAICOM-Robot-Developer-Competition/#fruit-picking)
+<picture>
+  <source type="image/webp" srcset="docs/media/fruit-picking-animation.webp">
+  <img src="docs/media/fruit-picking.gif" loading="lazy" alt="The robotic arm grasping and lifting a fruit prop toward onboard storage">
+</picture>
 
 ## Reproduce on a Desktop
 
